@@ -1,0 +1,425 @@
+/* general attr */
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+.img-fluid{
+    width:100%;
+}
+button:focus{
+    outline: none;
+}
+p,h1,h2,h3,h4,h5,h6,h7{
+    color: #495057;
+    font-family: 'Cairo', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #d63031 !important;
+    font-weight: bold;
+    border-bottom: 3px solid #d63031;
+    
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  border-bottom: 3px solid #d63031;
+    color:#d63031;
+}
+
+
+.owl-nav{
+    text-align:left;
+    top: 100px !important;
+}
+
+.owl-prev, .owl-next {  
+    font-size: 50px !important;
+    color: gray !important;
+    margin: 10px;
+}
+.form-control-lg{
+    background-color: #f5f6fa;
+}
+.breadcrumb{
+    background-color: white;
+}
+.breadcrumb a{
+   color: lightgray;
+}
+
+.select-arrow select{
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+    
+}
+.select-arrow select::-ms-expand {
+  display: none;
+}
+.select-arrow-position{
+    position: relative;
+}
+.select-arrow::after {
+   content:"\f107 ";
+    font-family: FontAwesome;
+    color: #495057;
+    position: absolute; 
+    left:3%;
+    top: 10%;
+    font-size: 30px; 
+    pointer-events: none;
+    
+}
+/* common attr */
+.top-bar{
+    background-color: #34495e;
+   
+    padding-top: 5px;
+ 
+}
+.vl {
+  border-left: 0.5px solid #dfe4ea;
+ 
+  margin-left: 10px;
+  color:#d63031;
+  
+}
+.hl{
+    background-color:darkred;
+    width:130px;
+    height: 1px;
+   
+   
+}
+.donation-request-btn{
+    background: url(../imgs/about%20-%20button.png) no-repeat top right;
+    background-size: contain;
+    border: none;
+    width: 250px; 
+    background-color: #34495e;
+    color: white;
+    margin-right: 100px;
+}
+.clear{
+    clear: both;
+}
+.icons{
+    color: white;
+    margin:10px 10px;
+    
+}
+
+.new-account-link{
+    color:orange;
+    padding-left: 50px;
+    
+   
+   
+}
+.enter-btn{
+    color: white !important;
+    background-color: #34495e;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+.header-bg{
+    background-image: url(../imgs/BG.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.header-text{
+    
+    padding:130px 30px 150px 50px;
+    line-height: 30px;
+        
+}
+.header-title{
+    color: #b33939;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-p{
+    font-size: 20px;
+    line-height: 45px;
+}
+.more-btn{
+    color: white;
+    background-color: #34495e;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-bg{
+    background-image: url(../imgs/about.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+   
+}
+.about{
+   text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    
+}
+
+/* article section */
+
+.article-bg{
+    background-image: url(../imgs/subtle-pattern-1.jpg);
+}
+.article-title{
+    color: darkred;
+    padding-top: 50px;
+}
+.article-block{
+    background-color: white;
+    border: 0.5px solid lightgray;
+    padding: 2px;
+   
+}
+
+/* requests section */
+
+.requests-bg{
+    background-color: #f5f6fa;
+}
+.select-option{
+    background-color: white;
+    border-radius: 30px;
+    
+}
+.select-row .select-arrow{
+    padding-left: 0;
+    padding-top: 0;
+    
+}
+.search-icon{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 12px;
+    margin-bottom: 30px;
+}
+.select-row{
+  
+    margin-top: 50px;
+}
+/*
+.select-blood{
+    color: gray;
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    margin: auto;
+}
+.select-city{
+    
+}
+*/
+.details-block{
+    background-color: white;
+    border-radius: 0 75px 75px 0;
+   
+    
+   
+}
+
+.symbol{
+    border-radius: 50%;
+    border: 0.25px solid lightgray;
+    width:130px;
+    height: 130px;
+    text-align: center;
+    padding-top: 25px;
+    margin-right: 10px;
+    margin-top: 7px;
+    background-color: #f5f6fa;
+    font-weight: bolder;
+    font-size: 40px;
+    float: right;
+}
+.details-data{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-top: 20px;
+    float: right;
+    
+}
+.details-btn , .inside-request-btn{
+    color: #34495e;
+    background-color: #f5f6fa;
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+   
+  
+   
+}
+.details-btn:hover{
+    background-color: #34495e;
+    color: white;
+}
+/* contact-us section */
+.contact-bg{
+    background-image: url(../imgs/call.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact-title{
+    color: darkred;
+    padding-top: 70px;
+    margin-right: 140px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.whats-img{
+    width: 70px;
+    
+    margin-top: 15px;
+    margin-right: 70px;
+}
+.whats-num{
+    background-color: #44bd32;
+    color: white;
+    height: 55px;
+    width: 250px;
+    margin: 20px auto 50px -90px;
+    padding-top: 15px;
+    font-size: 18px;
+    border-radius: 0 30px 30px 0;
+    float: right;
+}
+
+.app-block{
+    padding-top: 100px;
+    color: #2f3542;
+    line-height: 45px;  
+}
+.phone-bg{
+    background-image: url(../imgs/BG-phone.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.phone-padding{
+    padding: 50px 0;
+}
+
+/* footer section */
+
+.footer-bg{
+    background-color: #1e272e;
+}
+.footer-bloodbank-title{
+    color: white;
+    margin: 20px auto 25px auto;
+}
+.footer-google-img{
+    margin: 30px auto 20px auto;
+}
+.links-color{
+    color: white;
+}
+.links-color:hover{
+    color: #ff3838;
+}
+
+.bottom-bar{
+    background-color: black;  
+}
+.bottom-bar p{
+    color:white;
+   margin: 10px auto;
+}
+.links-padding{
+    padding-right: 100px;
+}
+
+
+/* create-account-page */
+
+.page-bg{
+    background-color: #f5f6fa;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.inputs-block , .login-block , .how-are-block ,  .article-text , .inside-request-block{
+    border: 1px solid #f5f6fa;
+    background-color: white;
+     padding: 30px 50px ;
+}
+.datepicker-icon-style{
+    background-color: #f5f6fa; 
+    padding:7px 12px; 
+    border: 1px solid #ced4da;
+}
+.submit-btn{
+    background-color: forestgreen;
+    color: white;
+    width: 250px;
+   
+}
+
+/* contact-us-page */
+
+.topbar-color{
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin: auto -12px 30px -12px;
+}
+.icons-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/* inside-request */
+
+.data-title , .data-details{
+    color: #495057;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size: 19px;
+}
+.data-title{
+     background-color:#dfe4ea;
+}
+.data-details{
+    background-color: #f5f6fa;
+}
+
+.inside-request-btn{
+    background-color: #34495e;
+    color: white;
+}
+.inside-request-text{
+    border: 1px solid #ced4da;
+    padding: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #495057;
+    font-size: 19px;
+   
+}
